@@ -1,0 +1,40 @@
+
+.container {
+    padding: 20px;
+    max-width: 90%; /* Adjust the max-width to make the container wider */
+    margin: 0 auto;
+}
+
+.card-user {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+    padding: 15px; /* Add padding for more spacing */
+}
+
+.table th {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.table tr:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    font-size: 14px;
+}
+
+input[type="text"] {
+    font-size: 14px;
+    padding: 10px; /* Increase padding for better usability */
+}
+
+.modal-lg {
+    max-width: 60%;
+}

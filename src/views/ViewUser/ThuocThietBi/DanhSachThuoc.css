@@ -1,0 +1,129 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .banner img {
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  .banner h2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .row-equal-height4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Căn đều các thẻ */
+    gap: 20px; /* Khoảng cách giữa các thẻ */
+  }
+  
+  .col-equal-height4 {
+    flex: 1 1 calc(25% - 20px); /* Đảm bảo mỗi dòng có 4 thẻ, với khoảng cách nhỏ giữa các thẻ */
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Giảm khoảng cách giữa các thẻ */
+  }
+  
+  .card4 {
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    user-select: none; /* Ngăn việc chọn văn bản */
+    cursor: pointer;
+  }
+  
+  .card4:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-img-top4 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 150px; /* Đặt chiều cao cố định cho hình ảnh */
+    object-fit: cover; /* Đảm bảo hình ảnh không bị biến dạng */
+  }
+  
+  .card-body4 {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px; /* Giảm padding để làm cho thẻ nhỏ gọn hơn */
+    text-align: left; /* Căn trái các nội dung */
+  }
+  
+  .card-title4 {
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0;
+    text-align: left; /* Căn trái */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .card4 p {
+    margin: 5px 0;
+    color: #555;
+    text-align: left; /* Căn trái */
+  }
+  
+  .card4 p strong {
+    color: #007bff;
+  }
+  
+  .input-search1 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .cart-icon1 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cart-icon1:hover {
+    background-color: #0056b3;
+  }
+  
+  .cart-count1 {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+  }
+  

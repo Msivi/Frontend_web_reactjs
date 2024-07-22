@@ -1,0 +1,27 @@
+/* Nhapthuoc.css */
+
+.search-results {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: white;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .search-item {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-item input {
+    margin-right: 10px;
+  }
+  
+  .search-item:hover {
+    background-color: #f1f1f1;
+  }
+  

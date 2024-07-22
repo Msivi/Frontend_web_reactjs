@@ -1,0 +1,31 @@
+.background-image {
+    background-image: url('../../../assets/img/backgroundkiemtrathanhtoan.jpg') ;
+    background-size: cover;
+  }
+  
+  .container {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+  
+  .gradient-custom-4 {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,94,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+  }
+  

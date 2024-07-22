@@ -1,0 +1,43 @@
+.custom-card-title {
+    color: #FF5733; /* Màu của nội dung đánh giá */
+    text-align: center;
+}
+
+.custom-customer-name {
+    color: #28A745; /* Màu của tên khách hàng */
+    margin-top: 10px;
+}
+
+.container-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+/* Ensure all card elements are aligned vertically */
+.card-body, .card-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-footer {
+    justify-content: center;
+    text-align: center;
+}
+
+.card-footer img {
+    margin-bottom: 10px;
+}
+
+.card-footer .custom-customer-name {
+    text-align: center;
+}
+
+.stars-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}

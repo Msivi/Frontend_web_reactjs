@@ -1,0 +1,57 @@
+/*!
+
+ =========================================================
+ * Paper Dashboard React - v1.3.0 based on Paper Dashboard 2 - v2.0.0
+ =========================================================
+
+ * Product Page: https://www.creative-tim.com/product/paper-dashboard-2
+ * Copyright 2021 Creative Tim (http://www.creative-tim.com)
+
+ * Designed by www.invisionapp.com Coded by www.creative-tim.com
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
+
+ @import 'paper-dashboard-khachhang/variables';
+ @import 'paper-dashboard-khachhang/mixins';
+ 
+ // Plugins CSS
+ @import "paper-dashboard-khachhang/plugins/plugin-animate-bootstrap-notify";
+ @import "paper-dashboard-khachhang/plugins/plugin-perfect-scrollbar";
+ 
+ // Core CSS
+ @import "paper-dashboard-khachhang/buttons";
+ @import "paper-dashboard-khachhang/inputs";
+ @import "paper-dashboard-khachhang/typography";
+ @import "paper-dashboard-khachhang/misc";
+ @import "paper-dashboard-khachhang/checkboxes-radio";
+ 
+ 
+ // components
+ @import "paper-dashboard-khachhang/navbar";
+ @import "paper-dashboard-khachhang/page-header";
+ @import "paper-dashboard-khachhang/dropdown";
+ @import "paper-dashboard-khachhang/alerts";
+ @import "paper-dashboard-khachhang/images";
+ @import "paper-dashboard-khachhang/nucleo-outline";
+ @import "paper-dashboard-khachhang/tables";
+ @import "paper-dashboard-khachhang/sidebar-and-main-panel-khachhang";
+ @import "paper-dashboard-khachhang/footers";
+ @import "paper-dashboard-khachhang/fixed-plugin";
+ 
+ // cards
+ @import "paper-dashboard-khachhang/cards";
+ @import "paper-dashboard-khachhang/cards/card-plain";
+ @import "paper-dashboard-khachhang/cards/card-chart";
+ @import "paper-dashboard-khachhang/cards/card-user";
+ @import "paper-dashboard-khachhang/cards/card-map";
+ @import "paper-dashboard-khachhang/cards/card-stats";
+ 
+ @import "paper-dashboard-khachhang/responsive";
+ 
+ // html to react differences
+ @import "paper-dashboard-khachhang/react/react-differences.scss";
+ 

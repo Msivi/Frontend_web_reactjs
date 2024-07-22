@@ -1,0 +1,13 @@
+.background-image {
+    background-image: url('../../../assets/img/backgroundkiemtrathanhtoan.jpg'); /* Đường dẫn đến hình ảnh của bạn */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Đảm bảo chiều cao của background phù hợp */
+    width: 100vw; /* Chiều ngang toàn màn hình */
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    padding-top: 50px; /* Đẩy nội dung xuống một chút */
+  }
+  

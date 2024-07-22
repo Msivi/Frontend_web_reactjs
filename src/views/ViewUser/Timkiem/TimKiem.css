@@ -1,0 +1,198 @@
+.search-container6 {
+    margin-top: 100px; /* Thêm khoảng cách trên cùng để tránh lấn menu */
+  }
+  
+  .search-form6 {
+    margin-top: 20px;
+  }
+  
+  .search-bar6 {
+    display: flex;
+    align-items: center;
+    background-color: #FFD700; /* Light yellow background */
+    border-radius: 50px; /* Rounded corners */
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for better aesthetics */
+  }
+  
+  .search-bar6 input {
+    border: none;
+    background: none;
+    outline: none;
+    flex: 1;
+    border-radius: 50px; /* Rounded corners */
+    font-size: 16px;
+    color: #333;
+    padding: 5px; /* Add padding for better spacing */
+  }
+  
+  .search-bar6 button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #FFD700; /* Blue background for button */
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .search-bar6 .search-button {
+    max-width: 150px; /* Limit the button width */
+  }
+  
+  .search-bar6 i {
+    margin-right: 10px;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .card-container6, .doctor-list6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card-container6 .item-enter, .doctor-list6 .fade-enter {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  
+  .card-container6 .item-enter-active, .doctor-list6 .fade-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 500ms, transform 500ms;
+  }
+  
+  .card-container6 .item-exit, .doctor-list6 .fade-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .card-container6 .item-exit-active, .doctor-list6 .fade-exit-active {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 500ms, transform 500ms;
+  }
+  
+  .banner6 {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .banner6 img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .banner6 h2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+  }
+  
+  .service-card6, .specialty-card6 {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card6:hover, .specialty-card6:hover {
+    transform: translateY(-10px);
+  }
+  
+  .service-card6 .service-icon6 img, .specialty-card6 .specialty-icon6 img {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .service-name6, .specialty-name6 {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .doctor-card6 {
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .doctor-card6:hover {
+    transform: translateY(-10px);
+  }
+  
+  .doctor-card6 img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .button6 {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button6:hover {
+    background-color: #0056b3;
+  }
+  
+  .service-card6, .specialty-card6 {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    padding: 10px; /* Added padding to create space inside the card */
+    margin: 10px; /* Reduced margin to bring the cards closer */
+  }
+  
+  .service-card6:hover, .specialty-card6:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-container6 .item {
+    margin: 10px; /* Reduced margin to bring the cards closer */
+  }
+  
+  .service-card6 .service-icon6 img, .specialty-card6 .specialty-icon6 img {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .service-name6, .specialty-name6 {
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center; /* Center align the text */
+  }
+  
+  .service-price6 {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .card-container6 {
+    margin-left: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute space between cards */
+    gap: 10px; /* Added gap to control the space between cards */
+  }
+  

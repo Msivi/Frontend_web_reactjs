@@ -1,0 +1,52 @@
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.header-row {
+  display: contents;
+}
+
+.header-cell {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.content-row {
+  display: contents;
+}
+
+.content-cell {
+  min-height: 100px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.schedule-item {
+  background-color: #e0f7fa;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+.doctor-item:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.doctor-item.selected {
+  background-color: #d9edf7;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.pagination button {
+  margin: 0 2px;
+}

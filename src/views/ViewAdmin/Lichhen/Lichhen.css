@@ -1,0 +1,68 @@
+
+.header-custom {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+table td {
+    text-align: center;
+    padding: 10px;
+}
+
+h4 {
+    color:red
+}
+
+.custom-input {
+    width: 100%;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination .btn, .pagination .icon-btn {
+    padding: 5px 10px;
+    margin: 0 2px;
+    font-size: 12px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination .icon-btn {
+    width: 30px;
+}
+
+.pagination .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+.pagination .btn-secondary {
+    background-color: blue;
+    border-color: #6c757d;
+    color: white;
+}
+
+.pagination .btn.active {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+}
+

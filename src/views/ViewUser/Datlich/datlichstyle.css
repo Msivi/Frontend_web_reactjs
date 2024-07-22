@@ -1,0 +1,241 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.banner img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.price {
+  font-size: 1.2em;
+  color: #d9534f;
+}
+
+.form-section {
+  margin-top: 20px;
+}
+
+.doctor-selection {
+  display: flex;
+  justify-content: center; /* Căn giữa các bác sĩ */
+  flex-wrap: wrap;
+  gap: 30px; /* Tăng khoảng cách giữa các mục */
+}
+
+.doctor-item {
+  width: 180px; /* Điều chỉnh kích thước mỗi mục */
+  padding: 10px; /* Thêm padding để tạo khoảng trống */
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  background-color: #f9f9f9; /* Nền nhẹ cho mỗi mục */
+}
+
+.doctor-item.selected {
+  border-color: #007bff; /* Màu viền khi được chọn */
+  box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5); /* Thêm shadow khi được chọn */
+}
+
+.doctor-image-wrapper {
+  width: 140px; /* Kích thước khung hình */
+  height: 140px; /* Đảm bảo khung hình tròn */
+  margin-bottom: 10px; /* Khoảng cách giữa hình và tên */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: white; /* Nền trắng cho hình ảnh */
+}
+
+.doctor-image {
+  width: auto; /* Auto-width để giữ nguyên tỉ lệ hình ảnh */
+  height: 100%; /* Chiều cao tối đa trong khung */
+}
+
+
+@media (max-width: 768px) {
+  .doctor-item {
+    width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .doctor-item {
+    width: 100%;
+  }
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.address-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.address-item input {
+  margin-right: 10px;
+}
+
+.reviews-section {
+  margin-top: 20px;
+ 
+}
+
+.review-item {
+  margin-left: -200px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.review-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+
+.review-content {
+  flex-grow: 1;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+}
+
+.review-name {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.review-date {
+  color: #888;
+  font-size: 0.9em;
+}
+
+.review-stars {
+  margin-left: auto;
+  color: yellow;
+}
+
+.review-text {
+  margin-top: 5px;
+}
+
+.review-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.date-selection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.date-item {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.date-item.selected {
+  border-color: #4CAF50;
+  background-color: #E8F5E9;
+}
+
+.time-slot-selection {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.time-slot-group {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  
+}
+
+.time-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px; /* Adjust as necessary */
+  height: 40px; /* Adjust as necessary */
+  margin: 5px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.time-slot p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.time-slot.selected {
+  border-color: #4CAF50;
+  background-color: #E8F5E9;
+}
+
+.time-slot.unavailable {
+  border-color: #ccc;
+  background-color: #f9f9f9;
+  cursor: not-allowed;
+}
+
+.no-times {
+  margin: 10px;
+  padding: 10px;
+  color: red;
+  font-weight: bold;
+}
+
+.fa-star.checked {
+  color: gold;
+}
+.fa-star {
+  color: gray; 
+  font-size: 20px;  
+}
+
+
+.fa-star-half-alt {
+  color: gold; 
+  font-size: 20px;
+}

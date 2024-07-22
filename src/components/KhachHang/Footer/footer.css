@@ -1,0 +1,23 @@
+.footer {
+    background-color: #009966;
+    color: white;
+  }
+  
+  .company-info, .booking-info, .faq-info, .policy-info {
+    padding: 20px;
+  }
+  
+  .company-info h5, .booking-info h5, .faq-info h5, .policy-info h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px; /* Thêm khoảng cách dưới thẻ h5 để thẻ p không dính sát */
+  }
+  
+  .company-info p, .booking-info p, .faq-info p, .policy-info p {
+    margin: 5px 0;
+    color: white;
+  }
+  .h5 {
+    margin-left: -50px;
+  }

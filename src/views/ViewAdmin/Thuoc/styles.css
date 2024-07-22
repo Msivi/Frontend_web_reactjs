@@ -1,0 +1,33 @@
+.container {
+  margin-top: 50px;
+}
+
+.content {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.table-header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+}
+
+.table-row:hover {
+  background-color: #f1f1f1;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-input {
+  width: 100%;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+}

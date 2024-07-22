@@ -1,0 +1,49 @@
+
+
+/* Bacsi.css */
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 960px;
+    margin-top: 20px;
+}
+
+.card {
+    border-radius: 8px;
+    border: none;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.table img {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.specialty-cell {
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.hidden-current {
+    display: none;
+}
+

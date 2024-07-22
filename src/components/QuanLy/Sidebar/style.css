@@ -1,0 +1,36 @@
+.sidebar-horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f8f9fa;
+  }
+  
+  .sidebar-wrapper-horizontal {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .sidebar-wrapper-horizontal .nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  .sidebar-wrapper-horizontal .nav li {
+    list-style: none;
+  }
+  
+  .sidebar-wrapper-horizontal .nav li a {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #333;
+  }
+  
+  .sidebar-wrapper-horizontal .nav li a.active {
+    background-color: #007bff;
+    color: white;
+  }
+  

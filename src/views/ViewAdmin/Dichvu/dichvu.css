@@ -1,0 +1,107 @@
+.form-container {
+    background-color: #e6f7f8;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 1000px; /* Match the width of the table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for better visual effect */
+}
+
+.form-container h3 {
+    color: #0db7b2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    color: #555;
+    font-weight: bold;
+    text-align: right;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #0db7b2;
+    border-color: #0db7b2;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #0ca09e;
+    border-color: #0ca09e;
+}
+
+.table-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 1000px; /* Set maximum width for better appearance */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for better visual effect */
+}
+
+.table-container h2 {
+    color: #0db7b2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table-container table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination .btn, .pagination .icon-btn {
+    padding: 5px 10px;
+    margin: 0 2px;
+    font-size: 12px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination .icon-btn {
+    width: 30px;
+}
+
+.pagination .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+.pagination .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: white;
+}
+
+.pagination .btn.active {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+}
